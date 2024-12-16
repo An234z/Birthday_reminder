@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Reminder</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Birthday reminder</div>
+      <div class="welcome">
+        <h1>Welcome to the handy-dandy birthday reminder!</h1>
+      </div>
+      <ul class="nav-links">
+        <i
+          class="fa-solid fa-gift"
+          style="margin-left: px; margin-top: 15px"
+        ></i>
+        <i
+          class="fa-solid fa-gift"
+          style="color: white; margin-top: 7px; font-size: 24px"
+        ></i>
+        <i class="fa-solid fa-gift" style="color: white; font-size: 30px"></i>
+      </ul>
+    </nav>
+
+    <div class="container">
+    <div class="birthday-box">
+      <h2>Add birthday!</h2>
+      <form>
+        <label for="name">Birthday kid:</label>
+        <input type="text" id="name" name="name" placeholder="Add name" required>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <button type="submit">Add New Birthday</button>
+      </form>
+    </div>
+    <div class="birthday-list-box">
+      <h2>Birthdays</h2>
+      <ul id="birthday-list">
+        <!-- Siia ilmuvad sünnipäevad JavaScriptiga -->
+      </ul>
+    </div>
+
+    <div class="reminder-box">
+      <h2>Get a reminder for the upcoming birthday!</h2>
+      <form id="reminder-form">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+        <button type="submit">Get reminder</button>
+      </form>
+    </div>
+    
+  </div>
+</div>
+  </body> 
+  <footer class="footer">
+    </div>
+    <p class="copyright">© 2024 All rights reserved</p>
+  </footer>
+</html>
